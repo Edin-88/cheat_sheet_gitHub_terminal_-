@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .headerSection,
+  main {
+    background: #3eb2cd;
+  }
+
+.headerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .headerSection div a {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .headerSection {
+    
+    height: 20vh;
+    text-align: center;
+    margin: 30px auto;
+    border: 1px solid skyblue;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 15px #6bc1a3 ;
+    
+  }
+  main {
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 10px #6bc1a3 ;
+    margin: 0 auto 10px;
+  }
+  main section {
+    padding: 20px;
+  }
+  main section h2 {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  main div {
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .gitInit a {
+    color: white;
+    font-size: 15px;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
+    padding: 10px 40px;
+    background-color: #6bc1a3 ;
+  }
+ 
+.terminal {
+    border: 2px solid #e7bc0e  ;
+    color: #e7bc0e  ;
+    font-size: 3.5rem;
+    padding: 5vh 0;
+    margin: 5vh 8vw;
+}
