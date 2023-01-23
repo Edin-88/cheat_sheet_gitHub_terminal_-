@@ -21,7 +21,7 @@
 
     <main>
 
-        <section class="gitInit">
+        <section class="gitInit hoverh2">
             <h2 class="terminal">GitHub</h2>
         </section>
 
@@ -65,7 +65,7 @@
 
 <!-- Terminal Befehle -->
 
-<section class="gitInit">
+<section class="gitInit hoverh2">
     <h2 class="terminal">Terminal Befehle</h2>
      <div>
         <a>ls</a>
@@ -176,6 +176,109 @@
        <p>code . öffnet den Ordner im Editor (VSC)</p>
    </div>
  </section>
+
+  </section>
+
+  <!-- git vertiefung (branches etc) -->
+  <section class="gitInit hoverh2">
+    <h2 class="terminal">Git Branches</h2>
+  </section>
+<section class="gitInit">
+     <div>
+        <a>git branch</a>
+    </div>
+    
+    <div class="styleText">
+        <p>zeigt mir alles branches an inkl. der in dem ich mich befinde</p>
+    </div>   
+  </section>
+<!-- 2 -->
+  <section class="gitInit">
+    <div>
+       <a>git branch ("Name der Branch")</a>
+   </div>
+   
+   <div class="styleText">
+       <p>mit git + den Namen der Branch erstelle ich eine neue Branch</p>
+   </div>
+ </section>
+
+ <!-- 3 -->
+  <section class="gitInit">
+    <div>
+       <a>git checkout ("Name der Branche")</a>
+   </div>
+   
+   <div class="styleText">
+       <p>Mit git branche + den Namen der Branche in die ich wechseln will, bringt mich in die jeweilige Branche</p>
+   </div>
+ </section>
+
+ <!-- 4 -->
+  <section class="gitInit">
+    <div>
+       <a>git push set up stream orign ("Name der Branch")</a>
+   </div>
+   
+   <div class="styleText">
+       <p>um den Code zu pushen wird dieser Befehl verwendet</p>
+   </div>
+ </section>
+
+ <!-- 5 -->
+  <section class="gitInit">
+    <div>
+       <a>git checkout -b ("Name der Branche")</a>
+   </div>
+   
+   <div class="styleText">
+       <p>legt eine neue Branche an und wechselt direkt in diese(checkout Befehl nicht erforderlich)</p>
+   </div>
+ </section>
+
+ <!-- 6 -->
+  <section class="gitInit">
+    <div>
+       <a>git branche -d</a>
+   </div>
+   
+   <div class="styleText">
+       <p>löschen einer Branche</p>
+   </div>
+ </section>
+
+ <!-- Git Probleme beim pushen in GitHub beheben -->
+
+ <section class="gitInit hoverh2">
+  <h2 class="terminal">Git Fehlerbehebung</h2>
+</section>
+  <section class="gitInit">
+    <div class="styleText">
+      <p>How to fix:  <span class="error">Error Permission Denied (publickey) |Fatal: Could Not Read From Remote Repository</span></p>
+  </div> 
+  
+     <div>
+        <a>Gib folgendes ins Terminal ein: <span class="ssh">ssh-keygen -t rsa</span></a>
+    </div>
+      
+  </section>
+
+
+
+ <section class="gitInit">
+  <div class="styleText">
+    <p>Gib den Dateinnamen ein z.B. "12345"cund drücke auf y</p>
+</div>
+
+  <div>
+     <a>Gib dann folgenden Befehl ins Terminal ein <span class="ssh">pbcopy < ~/.ssh/id_rsa.pub</span></a>
+ </div>
+ 
+ <div class="styleText">
+  <p>Gehe dann ins Settings bei GitHub. Wähle SSH and GPPG keys. <br>Klicke auf New SSH key und drücke command v um
+  den key einzufügen</p>
+</div>
+</section>
 
   </section>
     </main>
