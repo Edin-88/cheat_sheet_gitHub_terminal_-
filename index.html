@@ -279,7 +279,22 @@
   den key einzufügen</p>
 </div>
 </section>
+ <!-- Git Probleme beim pullen beheben -->
+ <section class="gitInit hoverh2">
+  <h2 class="terminal">Git Fehlerbehebung 2 => Fehler bei: git pull in VS Code</h2>
+  
+</section>
+  <section class="gitInit">
+    <div class="styleText">
+      <p>How to fix:  <span class="error">error: Your local changes to the following files would be overwritten by merge:
+        .DS_Store Please commit your changes or stash them before you merge.</span></p>
+  </div> 
 
+  <div class="gitCheckOut">
+    <a><span class="ssh">mkdir stash</span></a>
+    <a><span class="ssh">cp .DS_Store stash/</span></a>
+    <a><span class="ssh">git checkout HEAD .DS_Store</span></a>
+</div>
   </section>
     </main>
   </body>
